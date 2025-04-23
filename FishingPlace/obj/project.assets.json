@@ -4492,11 +4492,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc1_5\\source\\repos\\FishingPlace\\FishingPlace.csproj",
+      "projectUniqueName": "C:\\Users\\pc1_5\\Source\\Repos\\Fisherman\\FishingPlace\\FishingPlace.csproj",
       "projectName": "FishingPlace",
-      "projectPath": "C:\\Users\\pc1_5\\source\\repos\\FishingPlace\\FishingPlace.csproj",
+      "projectPath": "C:\\Users\\pc1_5\\Source\\Repos\\Fisherman\\FishingPlace\\FishingPlace.csproj",
       "packagesPath": "C:\\Users\\pc1_5\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc1_5\\source\\repos\\FishingPlace\\obj\\",
+      "outputPath": "C:\\Users\\pc1_5\\Source\\Repos\\Fisherman\\FishingPlace\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
