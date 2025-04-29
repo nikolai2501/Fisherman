@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pc1_5\\source\\repos\\Fisherman\\FishingPlace\\",
+  "WorkspaceRootPath": "C:\\Users\\Niki\\source\\repos\\Fisherman\\FishingPlace\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B5A84BE-4880-4F94-8651-8DAF37F7B8D4}|FishingPlace.csproj|c:\\users\\pc1_5\\source\\repos\\fisherman\\fishingplace\\controllers\\ownerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B5A84BE-4880-4F94-8651-8DAF37F7B8D4}|FishingPlace.csproj|solutionrelative:controllers\\ownerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Niki\\source\\repos\\Fisherman\\FishingPlace\\Data\\Migrations\\20250429125203_AddFishingVesselMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20250429125203_AddFishingVesselMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B5A84BE-4880-4F94-8651-8DAF37F7B8D4}|FishingPlace.csproj|c:\\users\\pc1_5\\source\\repos\\fisherman\\fishingplace\\controllers\\fishingvesselscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B5A84BE-4880-4F94-8651-8DAF37F7B8D4}|FishingPlace.csproj|solutionrelative:controllers\\fishingvesselscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B5A84BE-4880-4F94-8651-8DAF37F7B8D4}|FishingPlace.csproj|c:\\users\\niki\\source\\repos\\fisherman\\fishingplace\\models\\fishingvessel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5A84BE-4880-4F94-8651-8DAF37F7B8D4}|FishingPlace.csproj|solutionrelative:models\\fishingvessel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B5A84BE-4880-4F94-8651-8DAF37F7B8D4}|FishingPlace.csproj|c:\\users\\pc1_5\\source\\repos\\fisherman\\fishingplace\\models\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Niki\\source\\repos\\Fisherman\\FishingPlace\\Data\\Migrations\\20250429125126_AddOwnerMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20250429125126_AddOwnerMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5A84BE-4880-4F94-8651-8DAF37F7B8D4}|FishingPlace.csproj|c:\\users\\niki\\source\\repos\\fisherman\\fishingplace\\models\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B5A84BE-4880-4F94-8651-8DAF37F7B8D4}|FishingPlace.csproj|solutionrelative:models\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B5A84BE-4880-4F94-8651-8DAF37F7B8D4}|FishingPlace.csproj|c:\\users\\pc1_5\\source\\repos\\fisherman\\fishingplace\\models\\fishingvessel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B5A84BE-4880-4F94-8651-8DAF37F7B8D4}|FishingPlace.csproj|solutionrelative:models\\fishingvessel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B5A84BE-4880-4F94-8651-8DAF37F7B8D4}|FishingPlace.csproj|c:\\users\\niki\\source\\repos\\fisherman\\fishingplace\\controllers\\ownerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5A84BE-4880-4F94-8651-8DAF37F7B8D4}|FishingPlace.csproj|solutionrelative:controllers\\ownerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5A84BE-4880-4F94-8651-8DAF37F7B8D4}|FishingPlace.csproj|c:\\users\\niki\\source\\repos\\fisherman\\fishingplace\\controllers\\fishingvesselscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5A84BE-4880-4F94-8651-8DAF37F7B8D4}|FishingPlace.csproj|solutionrelative:controllers\\fishingvesselscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,15 +38,19 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -70,14 +82,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
@@ -85,51 +89,80 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OwnersController.cs",
-              "DocumentMoniker": "C:\\Users\\pc1_5\\source\\repos\\Fisherman\\FishingPlace\\Controllers\\OwnersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OwnersController.cs",
-              "ToolTip": "C:\\Users\\pc1_5\\source\\repos\\Fisherman\\FishingPlace\\Controllers\\OwnersController.cs",
-              "RelativeToolTip": "Controllers\\OwnersController.cs",
+              "Title": "20250429125203_AddFishingVesselMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Niki\\source\\repos\\Fisherman\\FishingPlace\\Data\\Migrations\\20250429125203_AddFishingVesselMigration.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250429125203_AddFishingVesselMigration.cs",
+              "ToolTip": "C:\\Users\\Niki\\source\\repos\\Fisherman\\FishingPlace\\Data\\Migrations\\20250429125203_AddFishingVesselMigration.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250429125203_AddFishingVesselMigration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T12:52:03.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250429125126_AddOwnerMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Niki\\source\\repos\\Fisherman\\FishingPlace\\Data\\Migrations\\20250429125126_AddOwnerMigration.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250429125126_AddOwnerMigration.cs",
+              "ToolTip": "C:\\Users\\Niki\\source\\repos\\Fisherman\\FishingPlace\\Data\\Migrations\\20250429125126_AddOwnerMigration.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250429125126_AddOwnerMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T12:51:27.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OwnersController.cs",
+              "DocumentMoniker": "C:\\Users\\Niki\\source\\repos\\Fisherman\\FishingPlace\\Controllers\\OwnersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OwnersController.cs",
+              "ToolTip": "C:\\Users\\Niki\\source\\repos\\Fisherman\\FishingPlace\\Controllers\\OwnersController.cs",
+              "RelativeToolTip": "Controllers\\OwnersController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T08:54:14.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "FishingVesselsController.cs",
-              "DocumentMoniker": "C:\\Users\\pc1_5\\source\\repos\\Fisherman\\FishingPlace\\Controllers\\FishingVesselsController.cs",
+              "DocumentMoniker": "C:\\Users\\Niki\\source\\repos\\Fisherman\\FishingPlace\\Controllers\\FishingVesselsController.cs",
               "RelativeDocumentMoniker": "Controllers\\FishingVesselsController.cs",
-              "ToolTip": "C:\\Users\\pc1_5\\source\\repos\\Fisherman\\FishingPlace\\Controllers\\FishingVesselsController.cs",
+              "ToolTip": "C:\\Users\\Niki\\source\\repos\\Fisherman\\FishingPlace\\Controllers\\FishingVesselsController.cs",
               "RelativeToolTip": "Controllers\\FishingVesselsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T08:52:57.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T08:52:57.623Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "FishingVessel.cs",
-              "DocumentMoniker": "C:\\Users\\pc1_5\\source\\repos\\Fisherman\\FishingPlace\\Models\\FishingVessel.cs",
+              "DocumentMoniker": "C:\\Users\\Niki\\source\\repos\\Fisherman\\FishingPlace\\Models\\FishingVessel.cs",
               "RelativeDocumentMoniker": "Models\\FishingVessel.cs",
-              "ToolTip": "C:\\Users\\pc1_5\\source\\repos\\Fisherman\\FishingPlace\\Models\\FishingVessel.cs",
+              "ToolTip": "C:\\Users\\Niki\\source\\repos\\Fisherman\\FishingPlace\\Models\\FishingVessel.cs",
               "RelativeToolTip": "Models\\FishingVessel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T08:19:10.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Owner.cs",
-              "DocumentMoniker": "C:\\Users\\pc1_5\\source\\repos\\Fisherman\\FishingPlace\\Models\\Owner.cs",
+              "DocumentMoniker": "C:\\Users\\Niki\\source\\repos\\Fisherman\\FishingPlace\\Models\\Owner.cs",
               "RelativeDocumentMoniker": "Models\\Owner.cs",
-              "ToolTip": "C:\\Users\\pc1_5\\source\\repos\\Fisherman\\FishingPlace\\Models\\Owner.cs",
+              "ToolTip": "C:\\Users\\Niki\\source\\repos\\Fisherman\\FishingPlace\\Models\\Owner.cs",
               "RelativeToolTip": "Models\\Owner.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
