@@ -9,5 +9,8 @@
         public string RegistrationNumber { get; set; }
         public int FullCapasity { get; set; }
 
+        public Fish? Fish { get; set; }
+
+
     }
 }
