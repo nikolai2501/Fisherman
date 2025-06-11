@@ -9,7 +9,10 @@
         public string RegistrationNumber { get; set; }
         public int FullCapasity { get; set; }
 
-        public Fish? Fish { get; set; }
+        public Fish Fish { get; set; }
+        public int FishId { get; set; }
+
+        public ICollection<Owner> owner { get; set; }
 
 
     }

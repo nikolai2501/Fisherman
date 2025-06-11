@@ -22,6 +22,26 @@ namespace FishingPlace.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("FishingPlace.Models.Fish", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Weight")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Fish");
+                });
+
             modelBuilder.Entity("FishingPlace.Models.FishingVessel", b =>
                 {
                     b.Property<int>("Id")
@@ -31,6 +51,12 @@ namespace FishingPlace.Data.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("Capacity")
+                        .HasColumnType("int");
+
+                    b.Property<int>("FishId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("FishId1")
                         .HasColumnType("int");
 
                     b.Property<int>("FullCapasity")
@@ -50,6 +76,11 @@ namespace FishingPlace.Data.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("FishId")
+                        .IsUnique();
+
+                    b.HasIndex("FishId1");
+
                     b.ToTable("FishingVessel");
                 });
 
@@ -65,11 +96,16 @@ namespace FishingPlace.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("FishingVesselId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("FishingVesselId");
 
                     b.ToTable("Owner");
                 });
@@ -276,6 +312,32 @@ namespace FishingPlace.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("FishingPlace.Models.FishingVessel", b =>
+                {
+                    b.HasOne("FishingPlace.Models.Fish", "Fish")
+                        .WithOne("FishingVessel")
+                        .HasForeignKey("FishingPlace.Models.FishingVessel", "FishId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FishingPlace.Models.Fish", null)
+                        .WithMany("FishingVessels")
+                        .HasForeignKey("FishId1");
+
+                    b.Navigation("Fish");
+                });
+
+            modelBuilder.Entity("FishingPlace.Models.Owner", b =>
+                {
+                    b.HasOne("FishingPlace.Models.FishingVessel", "FishingVessel")
+                        .WithMany("owner")
+                        .HasForeignKey("FishingVesselId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("FishingVessel");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -325,6 +387,19 @@ namespace FishingPlace.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("FishingPlace.Models.Fish", b =>
+                {
+                    b.Navigation("FishingVessel")
+                        .IsRequired();
+
+                    b.Navigation("FishingVessels");
+                });
+
+            modelBuilder.Entity("FishingPlace.Models.FishingVessel", b =>
+                {
+                    b.Navigation("owner");
                 });
 #pragma warning restore 612, 618
         }
